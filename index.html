@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Damion&family=Fira+Sans:wght@300&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+    <title>TA - Landing Page</title>
+    <link
+      rel="shortcut icon"
+      href="https://yt3.ggpht.com/a-/AAuE7mBsxp-GTsl0fLnfmgTiHWsdiE2wLpTgtqmx_A=s900-mo-c-c0xffffffff-rj-k-no"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://yt3.ggpht.com/a-/AAuE7mBsxp-GTsl0fLnfmgTiHWsdiE2wLpTgtqmx_A=s900-mo-c-c0xffffffff-rj-k-no"
+        alt=""
+      />
+      <nav>
+        <li>Program</li>
+        <li>Langganan</li>
+        <li>Forum</li>
+        <li>Donasi</li>
+        <a id="link" href="https://skilvul.com">About</a>
+      </nav>
+    </header>
+    <div class="banner">
+      <div class="content-banner-left">
+        <h2>FOR BY YOUTH WHAT WE DO</h2>
+        <p id="description">
+          to create a world where youths exhibit a heigthened interest on ASEAN
+          through our activies
+        </p>
+        <button type="submit">Join Now</button>
+      </div>
+      <div class="content-banner-right">
+        <img
+          src="https://images.pexels.com/photos/6147023/pexels-photo-6147023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="content-info">
+      <h2>WHY YOU SHOULD JOIN WITH US</h2>
+      <p>
+        ASEAN Youth Organization aims to create a world where youths exhibit a
+        heightened interest on ASEAN through our activities that Empower Youth,
+        Engage & Educate Communities to implement ideas that enables Positive
+        Sustainable Change.
+      </p>
+      <div class="card">
+        <div class="card-body">
+          <img
+            src="https://images.pexels.com/photos/6196677/pexels-photo-6196677.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt=""
+          />
+          <button>Seminar</button>
+          <h4>A Dialogue on Gender Equality and Sustainable Development</h4>
+          <p>
+            Gender equality remains a crucial goal enshrined in the Sustainable
+            Development Goals.
+          </p>
+        </div>
+        <div class="card-body">
+          <img
+            src="https://images.pexels.com/photos/6694492/pexels-photo-6694492.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt=""
+          />
+          <button>Seminar</button>
+          <h4>Youth-Tech : Utilising Technology as an Instrument of Peace</h4>
+          <p>
+            The rapid growth of technology has contributed to bringing
+            futuristic items and lifestyles
+          </p>
+        </div>
+        <div class="card-body">
+          <img
+            src="https://images.pexels.com/photos/8761554/pexels-photo-8761554.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt=""
+          />
+          <button>Forum</button>
+          <h4>ASEAN Youth Economic Forum 2023</h4>
+          <p>
+            AYEF 2023 aims to facilitate collaboration and strengthen ties
+            between young leaders from ASEAN and Japan.
+          </p>
+        </div>
+      </div>
+    </div>
+    <h2 id="testi">TESTIMONI SISWA</h2>
+    <div class="testimoni">
+      <div class="testimoni-right">
+        <img
+          src="https://images.unsplash.com/photo-1564522365984-c08ed1f78893?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt=""
+        />
+      </div>
+      <div class="testimoni-left">
+        <p>
+          "Kelas ASEAN Youth Organization menawarkan materi yang relevan dan
+          fasilitator yang ahli. Saya merekomendasikan kelas ini karena
+          memberikan kesempatan untuk memperluas pengetahuan dan jaringan di
+          bidang kepemudaan dan pembangunan di ASEAN."
+        </p>
+        <p>- Hou Qihua | Changsha Yali High School</p>
+      </div>
+    </div>
+    <h3>Register Now</h3>
+    <form id="form" method="post">
+      <input id="name" type="text" placeholder="name" />
+      <input id="city" type="text" placeholder="city" />
+      <input id="email" type="email" placeholder="email" />
+      <input id="zip-code" type="number" placeholder="zip Code" />
+      <label id="check"
+        >Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+        dan telah sesuai</label
+      >
+      <input id="status" type="checkbox" onclick="checkboxIsChecked()" />
+      <button id="submit-form" type="submit" onclick="submit()">Submit</button>
+      <div id="warning"></div>
+    </form>
+    <footer>
+      <h4>Empowering ASEAN Youth for a Better Tomorrow</h4>
+      <div class="footer-info">
+        <div class="footer-card-info">
+          <img
+            src="https://yt3.ggpht.com/a-/AAuE7mBsxp-GTsl0fLnfmgTiHWsdiE2wLpTgtqmx_A=s900-mo-c-c0xffffffff-rj-k-no"
+            alt=""
+          />
+          <p>ASEAN Youth Organization</p>
+          <p>
+            AYO Kreasi Internasional Arcade Business Center 6-03North Jakarta,
+            Indonesia
+          </p>
+        </div>
+        <div class="footer-card-info">
+          <h5>MENU</h5>
+          <p>Program</p>
+          <p>Langganan</p>
+          <p>Forum</p>
+          <p>Donasi</p>
+        </div>
+        <div class="footer-card-info">
+          <h5>CLASS CATEGORY</h5>
+          <p>Seminar</p>
+          <p>Online Program</p>
+          <p>Offline Program</p>
+          <p>Webinar</p>
+        </div>
+      </div>
+      <p style="margin-top: 40px">
+        Tugas Akhir - landing page by Muh Hifzil Hendardinata.
+      </p>
+    </footer>
+  </body>
+</html>
